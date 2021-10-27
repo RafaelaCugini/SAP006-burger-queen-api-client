@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Oswald;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('/src/assets/images/background.png');
+}
+
+.imgBurgerRoles {
+    position: absolute;
+    z-index: -3;
+    margin-top: 2%;
+    height: 90vh;
+    width: 55%;
+    opacity: 0.1;
+}
+
+.imgLogo {
+    display: none;
+    width: 10rem;
+}
+
+.logo {
+    position: relative;
+    font-family: Oswald;
+    color: #EC85AE;
+    margin: 1.5rem;
+    line-height: 2.2rem;
+    font-size: 1.3rem;
+    z-index: 10;
+    justify-content: center;
+    align-items: center;
+    text-align: start;
+}
+
+.burger {
+    margin: 0rem 0rem 0rem 4.3rem;
+}
+
+
+.divInfo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100vw;
+    height: 55vh;
+}
+
+.formFieldsetLogin {
+    border: none;
+    background-color: #eb9aba;
+    margin: 1.5rem 0rem 0rem 0rem;
+    border-radius: 18px;
+    position: absolute;
+    z-index: 3;
+    width: 22vw;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.h1Login {
+    color: black;
+    font-size: 1.5rem;
+    font-weight: 500;
+    padding: 0.5rem 0rem 0rem 0rem;
+}
+
+#signUpBtn,
+#signInBtn {
+    width: 93%;
+
+}
+
+.isWorker {
+    color: black;
+    font-family: Roboto;
+    margin-bottom: 0.3rem;
+}
+
+.msgErro {
+    color: red;
+    margin: 0rem 0.8rem;
+    text-align: left;
+    font-family: Roboto;
+}
+
+footer {
+    background: pink;
+    border-top: 2px solid black;
+    color: black;
+    box-shadow: #000000 1px 2px 55px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0.2rem;
+    margin: auto;
+    width: 100%;
+    bottom: 0;
+    position: fixed;
+    z-index: 5;
+}
+
+.pFooter {
+    font-size: 1rem;
+    font-weight: none;
+}
+
+footer a {
+    text-decoration: none;
+    color: rgb(232, 0, 93);
+}
+
+footer a:hover {
+    text-decoration: none;
+    color: black;
+}

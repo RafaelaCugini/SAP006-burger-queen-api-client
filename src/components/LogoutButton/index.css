@@ -1,0 +1,39 @@
+.LogoutBtn {
+    color: black;
+    border: none;
+    width: 5vw;
+    height: 8vh;
+    border-radius: 5px;
+    margin-left: 93%;
+    margin-top: 0.9%;
+    position: absolute;
+    z-index: 3;
+    cursor: pointer;
+  }
+
+/* Responsive logoutBtn */
+@media (max-width: 1024px) {
+    .LogoutBtn {
+        width: 5vw;
+        height: 4vh;
+        margin-top: 1%;
+    }
+}
+
+@media (min-width: 706px) and (max-width: 773px) {
+    .LogoutBtn {
+        width: 6.5vw;
+        height: 9vh;
+        margin-left: 90%;
+        margin-top: -1%;
+    }
+}
+
+@media (min-width: 270px) and (max-width: 600px) {
+    .LogoutBtn {
+        width: 10vw;
+        margin-left: 80%;
+        margin-top: 3.2%;
+    }
+
+}

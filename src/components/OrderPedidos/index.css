@@ -1,0 +1,39 @@
+.withoutOrders {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 1.5rem;
+    color: red;
+}
+
+.orderPending,
+.orderPreparing,
+.orderReady,
+.orderServed {
+    font-size: 1.2rem;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    width: auto;
+    padding: 0.6rem;
+}
+
+.orderPending {
+    color: #ff0000;
+    background-color: #ff000013;
+}
+
+.orderPreparing {
+    color: #ffd000;
+    background-color: #ffd00013;
+}
+
+.orderReady {
+    color: rgb(85, 255, 85);
+    background-color: rgba(121, 255, 132, 0.075);
+}
+
+.orderServed {
+    color: #0074cc;
+    background-color: rgba(0, 21, 255, 0.075);
+}

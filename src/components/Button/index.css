@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+.orangeBtn {
+    background-color: #FFB800;
+    border-top: 2.5px solid #DC7700;
+    border-bottom: 6px solid #DC7700;
+    border-left: 2.5px solid #DC7700;
+    border-right: 6px solid #DC7700;
+    width: 93%;
+    color: #ffffff;
+    font-size: 1.1rem;
+    border-radius: 3px;
+    padding: 0.2rem;
+    margin: 0rem 0rem 2rem;
+    cursor:pointer;
+    /*margin: 1rem 0rem 2rem 0rem;*/
+}
+
+.orangeBtn:hover {
+    background-color: #DC7700;
+    transition: 1s;
+}
+
+.yellowBtn {
+    background-color: #FFB800;
+    border-top: 2.5px solid #CC9300;
+    border-bottom: 6.5px solid #CC9300;
+    border-left: 2.5px solid #CC9300;
+    border-right: 6.5px solid #CC9300;
+    width: 93%;
+    color: #ffffff;
+    font-size: 1.1rem;
+    border-radius: 3px;
+    padding: 0.2rem;
+    margin: 1rem 0rem 1rem;
+}
+
+.yellowBtn:hover {
+    background-color: #CC9300;
+    transition: 1s;
+}
+
+.redBtn {
+    background-color: #FF3D00;
+    border-top: 2.5px solid #DF3600;
+    border-bottom: 6.5px solid #DF3600;
+    border-left: 2.5px solid #DF3600;
+    border-right: 6.5px solid #DF3600;
+    font-size: 1.1rem;
+    color: #ffffff;
+    border-radius: 3px;
+    padding: 0.2rem;
+    margin: 0rem 0rem 2rem;
+}
+
+.redBtn:hover {
+    background-color: #DF3600;
+    transition: 1s;
+}
+
+.backHome {
+    outline: none;
+    border: none;
+    background-color: transparent;
+    position: absolute;
+    width: 100%;
+    font-size: 3vh;
+    color: pink;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    cursor:pointer;
+}
+
+.backHome:hover {
+    color: rgb(255, 130, 188);
+    text-decoration: underline;
+    transition: 1s;
+}

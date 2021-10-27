@@ -1,0 +1,30 @@
+.ordersItems {
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    width: 12rem;
+    margin: 1.5rem;
+    padding: 0rem 0.5rem;
+    text-align: center;
+    align-items: center;
+}
+
+.orderSummary {
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    margin: 0.4rem 1.5rem;
+    padding: 0rem 0.5rem 0.5rem;
+    object-fit: cover;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+}
+
+.orderWrap {
+    background-color: white;
+    margin: 1.5rem;
+    padding: 0rem 0.5rem 0.5rem;
+    width: 15rem;
+    border-radius: 5px;
+
+}

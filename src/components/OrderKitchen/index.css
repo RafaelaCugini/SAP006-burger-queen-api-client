@@ -1,0 +1,35 @@
+#statusOrderBtn,
+#statusOrderFinish,
+#statusOrderToServe,
+#statusOrderServed {
+    width: 60%;
+    margin: 1.5% 20%;
+    font-size: 1.1rem;
+    text-align: center;
+}
+
+.orderReady,
+.orderRestrict {
+    font-size: 1.2rem;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    width: auto;
+    padding: 0.6rem;
+}
+
+.orderReady {
+    color: green;
+    background-color: rgba(0, 255, 21, 0.075);
+}
+
+.orderRestrict {
+    color: #ffd000;
+    background-color: #ffd00013;
+}
+
+.ordered {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

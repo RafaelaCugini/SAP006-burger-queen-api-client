@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+.menu {
+    background-image: url(/src/assets/images/background-clean.jpg);
+    background-repeat: repeat;
+    width: 80vw;
+}
+
+.categoriesBtn {
+    background-color: pink;
+    border-top: 3px solid #0074cc;
+    border-bottom: 3px solid #0074cc;
+    border-left: 2.5px solid #0074cc;
+    border-right: 6px solid #0074cc;
+    cursor: pointer;
+    width: 9rem;
+    color: #000000;
+    font-size: 0.9rem;
+    border-radius: 3px;
+    padding: 0.2rem;
+    margin: 1rem 1.5rem;
+}
+
+.categoriesBtn:hover {
+    background-color: #0074cc;
+    border-top: 3px solid #0074cc;
+    border-bottom: 3px solid #0074cc;
+    border-left: 2.5px solid #0074cc;
+    border-right: 6px solid #0074cc;
+    transition: 1s;
+}
+
+.nameItems,
+.flavorItem {
+    display: flex;
+
+    justify-content: center;
+}
+
+.itemsH1 {
+    font-weight: 500;
+}
+
+.allItems {
+    transition: 1s;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.aboutItems {
+    border-bottom: 1.5px solid black;
+    padding: 0.8rem 0rem 0.3rem;
+}
+
+.imageItem {
+    width: 11rem;
+    object-fit: cover;
+    align-self: center;
+    height: 10rem;
+    margin: 0rem 0rem;
+}
+
+.nameItem {
+    font-size: 1.3rem;
+    text-align: center;
+}
+
+.flavorItem {
+    font-size: 1.2rem;
+    margin-top: -5%;
+}
+
+.complementsItem {
+    padding: 0rem 0.1rem;
+    font-size: 0.9rem;
+    font-weight: 400;
+    line-height: 15px;
+    text-align: left;
+}
+
+.priceItem {
+    padding: 0.1rem 0rem 0rem;
+    font-size: 1.3rem;
+    font-weight: 400;
+    text-align: center;
+    color: black;
+}
+
+#addToCart {
+    background-color: pink;
+    border-radius: 3px;
+    border-top: 2px solid rgb(255, 130, 188);
+    border-bottom: 5px solid rgb(255, 130, 188);
+    border-left: 2px solid rgb(255, 130, 188);
+    border-right: 5px solid rgb(255, 130, 188);
+    color: black;
+    font-size: 1rem;
+    padding: 0.2rem 1rem;
+    margin: 0.7rem 0rem;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+#addToCart:hover {
+    background-color: rgb(255, 130, 188);;
+    transition: 0.7s;
+}
+
+
+.nameOrder,
+.titleOrder {
+    font-size: 1.2rem;
+    text-align: center;
+    align-items: center;
+    font-weight: bold;
+    padding: 0.1rem 0rem 0.3rem;
+    line-height: 1.5rem;
+}
+
+.amountOrder {
+    display: flex;
+    align-items: center;
+    font-size: 0.9rem;
+    font-weight: 400;
+    width: 100%;
+}
+
+.complementOrder,
+.flavorOrder {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.8rem;
+    text-align: center;
+}
+
+.complement,
+.flavor {
+    font-size: 0.9rem;
+    font-weight: 400;
+    text-align: center;
+    align-items: center;
+    padding: 0rem 0.2rem 0rem 0rem;
+}
+
+.columOrder1 {
+    display: flex;
+    flex-direction: row;
+}
+
+.image {
+    width: 3.8vw;
+    object-fit: cover;
+    align-self: center;
+    height: 8vh;
+    justify-content: end;
+    align-items: flex-end;
+    text-align: end;
+    border-radius: 5px;
+}
+
+.imgOrder {
+    display: flex;
+    justify-content: start;
+    align-items: flex-end;
+}
+
+.orderPrice {
+    margin: 0.2rem 0rem 0rem;
+    border-top: 1px solid black;
+    display: flex;
+    flex-direction: row;
+}
+
+.price {
+    color: black;
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+.moreItem,
+.lessItem {
+    width: 1rem;
+    height: 1.2rem;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 1rem;
+    font-family: Roboto;
+}
+
+.inputQtd {
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    width: 1rem;
+    height: 1.2rem;
+    padding: 0.8rem;
+    border-radius: 4px;
+    border: 1px solid rgba(75, 75, 75, 0.349);
+}
+
+.complementsColum {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    text-align: start;
+    align-items: flex-start;
+    margin: 0rem 0.5rem;
+}
+
+.types {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}

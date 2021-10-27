@@ -1,0 +1,174 @@
+@media (max-width:2560px) {
+
+    .backHome {
+        margin: 15% 0% 0% 15%;
+        width: 70%;
+    }
+}
+
+@media (min-width: 1200px) and (max-width: 1400px) {
+    
+    .burgerLogo {
+        width: 18vw;
+    }
+  
+    .inputEmail,
+    .inputPassword {
+        font-size: 0.9rem;
+        padding: 0rem 0.5rem;
+    }
+
+    Button {
+        font-size: 1.5rem;
+    }
+
+    #signInBtn {
+        font-size: 1.2rem;
+    }
+
+    .isWorker,
+    .redBtn {
+        font-size: 1rem;
+    }
+
+    .backHome {
+        margin: 3% 0% 0% 15%;
+        width: 70%;
+    }
+
+    .formFieldsetLogin,
+    .formFieldsetRegister {
+        width: 25vw;
+        margin: 1rem 0rem 0rem 0rem;
+    }
+}
+
+@media (max-width: 1024px) {
+
+    .imgBurger {
+        margin-top: 9%;
+        margin-left: 20%;
+        height: 70vh;
+        width: 60vw;
+    }
+ 
+    .burgerLogo {
+        width: 20vw;
+    }
+
+    .formFieldsetLogin,
+    .formFieldsetRegister {
+        width: 30vw;
+        margin: 1rem 0rem 0rem 0rem;
+    }
+
+    .backHome {
+        margin: 2% 0% 0% 15%;
+        width: 70%;
+        font-size: 1.2rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .imgBurger {
+        display: none;
+    }
+
+    .formFieldsetLogin,
+    .formFieldsetRegister {
+        width: 60vw;
+        margin: 12rem 0rem 7rem 0rem;
+    }
+
+    .backHome {
+        margin: 1% 0% 0% 15%;
+        width: 50%;
+    }
+
+    .logo {
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        width: 78vw;
+        font-size: 2rem;
+        line-height: 3.5rem;
+    }
+
+    .wood {
+        margin: 0rem 0rem 0rem 0.2rem;
+    }
+
+    .burger {
+        margin: 0.1rem 0rem 0rem 15.5rem;
+    }
+
+    .divRegister {
+        padding: 2rem 0rem;
+    }
+
+    .divInfo {
+        padding: 2rem 0rem;
+    }
+
+}
+
+@media(min-width: 280px) and (max-width: 590px) {
+    .imgBurger {
+        display: none;
+    }
+
+    .burgerLogo {
+        display: none;
+    }
+
+    .formFieldsetLogin,
+    .formFieldsetRegister {
+        width: 60vw;
+        margin: 3vh 0rem 0rem 0rem;
+    }
+
+    .backHome {
+        margin: 1% 0% 0% 15%;
+        width: 100%;
+        font-size: 1rem;
+    }
+
+    .pFooter {
+        font-size: 0.8rem;
+    }
+
+    .imgLogo {
+        width: 5rem;
+        margin: 0rem 0rem 0rem 58vw;
+        position: absolute;
+        width: 3rem;
+        z-index: -2;
+        display: flex;
+    }
+
+    .logo {
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin: 3rem 0rem 0rem 0vw;
+        width: 80vw;
+        font-size: 1.3rem;
+        line-height: 2.2rem;
+    }
+
+    .wood {
+        margin: 0rem 0rem 0rem 0.2rem;
+    }
+
+    .burger {
+        margin: 0.1rem 0rem 0rem 6.5rem;
+    }
+
+    .divRegister {
+        padding: 1rem 0rem;
+    }
+
+    .divInfo {
+        padding: 1rem 0rem;
+    }
+}

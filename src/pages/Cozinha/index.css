@@ -1,0 +1,90 @@
+.internal-bg {
+    background-image: url(/src/assets/images/background-clean.jpg);
+    background-repeat: repeat;
+}
+
+.ordersKitchen {
+    width: 20rem;
+}
+
+.ordersList {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.ListOfOrders {
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.headerOrder {
+    border-bottom: 1.5px solid black;
+    padding: 0.8rem 0rem 0.3rem;
+    text-align: start;
+}
+
+.tableNumber,
+.customerName {
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 30px;
+}
+
+.customerName {
+    margin-bottom: 20px;
+}
+
+.timeOrder {
+    color: #0074cc;
+}
+
+.titleKitchen {
+    color: black;
+    margin: 4% 0% 2% 0%;
+    text-align: center;
+    z-index: 3;
+}
+
+
+.statusBtn {
+    max-height: 54.8px;
+    border-top: 1px solid black;
+    margin: 0.1rem 0rem;
+    padding: 0.5rem 0rem;
+    justify-content: center;
+}
+
+.listProductOrder {
+    border-top: 1.5px solid #763D09;
+}
+
+.bodyOrder {
+    height: 120px;
+    overflow: auto;
+    line-height: 17px;
+}
+
+.listProductOrder {
+    display: flex;
+    margin: 2%;
+    padding: 4%;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.nameItemOrder {
+    width: 40%;
+    margin-right: 5px;
+    font-weight: bold;
+    word-break: break-word;
+}
+
+.quantityItem {
+    border-left: 1px solid black;
+    padding: 0rem 0rem 0rem 0.6rem;
+}

@@ -1,0 +1,50 @@
+@media (min-width: 1400px) {
+    .orders {
+        padding: 2rem 0rem;
+    }
+}
+
+@media (max-width: 1024px) {
+    .orders {
+        background-color: rgb(252, 167, 182);
+        width: 28vw;
+        min-height: 100vh;
+        position: fixed;
+    }
+}
+
+@media (max-width: 768px) {
+    .inputQtd {
+        font-size: 1rem;
+    }
+
+    .columOrder1 {
+        padding: 0.5rem 0rem;
+    }
+
+    .orders {
+        width: 40vw;
+        transition: 1s;
+    }
+
+    .alignCloseOrders {
+        display: flex;
+        margin: 0rem 1rem 0rem;
+    }
+
+
+}
+
+@media (min-width: 270px) and (max-width: 600px) {
+    .orders {
+        width: 100vw;
+        transition: 1s;
+        min-height: 100vh;
+        position: fixed;
+        z-index: 3;
+    }
+
+    .divOrderSummary {
+        height: 50vh;
+    }
+}

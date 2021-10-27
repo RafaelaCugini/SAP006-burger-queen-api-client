@@ -1,0 +1,130 @@
+.orders {
+    background-color: rgb(252, 167, 182);
+    width: 20vw;
+    min-height: 100vh;
+    position: fixed;
+    top: 0;
+    right: 0;
+    padding: 1rem 0rem;
+}
+
+.ordersH1 {
+    color: black;
+    font-size: 1.9rem;
+    font-weight: 400;
+    margin: 0rem 1rem 0rem;
+}
+
+.nameTable {
+    width: 90%;
+    margin: 0rem auto 0rem;
+    padding: 10px 5px;
+    border-bottom: solid 3px #ffe1beb6;
+    border-top: solid 3px #ffe1beb6;
+}
+
+.clientInfo {
+    font-weight: 400;
+    font-size: 25px;
+}
+
+.nameTable {
+    display: flex;
+    flex-direction: column;
+}
+
+.nameCustomer,
+.tableCustomer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.inputCustomer {
+    margin: 0rem 0.6rem;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid black;
+    font-family: Roboto;
+    font-size: 1rem;
+    width: 9.9rem;
+}
+
+.inputTable {
+    margin: 0rem 1.2rem;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid black;
+    font-family: Roboto;
+    font-size: 1rem;
+    width: 2.2rem;
+}
+
+.finishOrder {
+    display: flex;
+    margin: 0rem 0.2rem;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.total {
+    color: black;
+    font-weight: 900;
+    font-size: 1.8rem;
+}
+
+.sendOrder,
+.cancelOrder {
+    margin: 0.2rem 0rem;
+    background-color: pink;
+    border-top: 2.5px solid #0074cc;
+    border-bottom: 6.5px solid #0074cc;
+    border-left: 2.5px solid #0074cc;
+    border-right: 6.5px solid #0074cc;
+    font-size: 1rem;
+    width: 13rem;
+    color: black;
+    border-radius: 3px;
+    padding: 0.2rem;
+}
+
+.sendOrder:hover {
+    background-color: #0074cc;
+    transition: 0.7s;
+}
+
+.divOrderSummary {
+    height: 35vh;
+    overflow-y: auto;
+    overflow-wrap: break-word;
+    margin: 1rem 0rem;
+}
+
+.alignCloseOrders {
+    display: none;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin: 0.5rem 1rem 0rem;
+}
+
+.closeOrders {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: red;
+    padding: 0.5rem;
+    border-radius: 50px;
+    width: 1rem;
+    height: 1rem;
+    font-size: 0.8rem;
+    font-weight: 700;
+    font-family: Roboto;
+    cursor: pointer;
+    border: 3px solid rgb(194, 1, 1);
+    color: white;
+}
